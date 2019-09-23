@@ -597,13 +597,13 @@ a.active {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
 }
-
-.popup-modal {
+/***************************************************************************************/
+.popup-modal1 {
     background: #fff;
     display:none;
 }
 
-.close-popup-modal {
+.close-popup-modal1 {
     float: right;
     margin: 20px;
     font-size: 22px;
@@ -618,7 +618,7 @@ a.active {
     right: 14px;
 }
 
-.animatedModal-on .close-popup-modal {
+.animatedModal1-on .close-popup-modal1 {
     opacity: 1;
 }
 
@@ -627,6 +627,86 @@ a.active {
     font-size: 40px;
     line-height: 50px;
 }
+
+/****************************************************************************************/
+
+.popup-modal2 {
+    background: #fff;
+    display:none;
+}
+
+.close-popup-modal2 {
+    float: right;
+    margin: 20px;
+    font-size: 22px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    position: fixed;
+    z-index: 100000;
+    right: 14px;
+}
+
+.animatedModal2-on .close-popup-modal2 {
+    opacity: 1;
+}
+
+.modal-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+/****************************************************************************************/
+.popup-modal3 {
+    background: #fff;
+    display:none;
+}
+
+.close-popup-modal3 {
+    float: right;
+    margin: 20px;
+    font-size: 22px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    position: fixed;
+    z-index: 100000;
+    right: 14px;
+}
+
+.animatedModal3-on .close-popup-modal3 {
+    opacity: 1;
+}
+
+.modal-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+/****************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* contact
