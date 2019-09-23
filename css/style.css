@@ -600,7 +600,7 @@ a.active {
 
 .popup-modal {
     background: #fff;
-
+    display:none;
 }
 
 .close-popup-modal {
