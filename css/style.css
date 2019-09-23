@@ -600,12 +600,7 @@ a.active {
 
 .popup-modal {
     background: #fff;
-    display: inline-block;
-    z-index: 0;
-    border-style: solid;
-    border-width: 5px;
-    border-color:black;
-    opacity: 100%
+
 }
 
 .close-popup-modal {
