@@ -443,9 +443,10 @@
 
 <script language="javascript">
 
-$("#1").click(function(){
-alert( "Handler for .click() called." );
-});
+document.getElementsByClassName('1')[0]
+        .addEventListener('click', function (event) {
+              alert('Hi!');
+        });
 
 
 </script>
